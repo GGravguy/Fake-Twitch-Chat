@@ -1,0 +1,3 @@
+fetch("https://raw.githubusercontent.com/GGravguy/Fake-Twitch-Chat/main/fakeTwitchChat.js")
+  .then(r => r.text())
+  .then(eval);
